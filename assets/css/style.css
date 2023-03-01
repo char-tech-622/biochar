@@ -9,8 +9,41 @@ body {
 .section-padding {
     padding-top: 120px;
     padding-bottom: 120px;
-}
 
+}
+/*divider*/
+.divider {
+    border-bottom: 1px solid rgba(12, 12, 12, 0.08);
+}
 a {
     text-decoration: none;
 }
+
+/* Intro Section */
+.intro-section p {
+max-width: 500px;
+}
+
+/* Navbar */
+
+.navbar {
+    transition: all 0.4s ease-out;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 14;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: var(--bs-info);
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+}
+
