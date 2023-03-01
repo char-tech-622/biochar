@@ -19,6 +19,18 @@ a {
     text-decoration: none;
 }
 
+/*styles for animation on the services buttons*/
+
+.border-hover{
+    transition: all 0.4s ease-out;
+    border: 2px solid transparent;
+}
+
+.border-hover:hover{
+  /*  border-color: var(--bs-info);*/
+    border-color: rgba(77, 74, 74, 0.466);
+}
+
 /* Intro Section */
 .intro-section p {
 max-width: 500px;
@@ -47,3 +59,25 @@ max-width: 500px;
     }
 }
 
+
+/* services */
+.service .icon {
+    width: 80px;
+    height: 80px;
+    color: var(--bs-info);
+    font-size: 34px;
+}
+
+/*not using this currently, but if I wanted to have inset icons, use below*/
+/*
+.service .icon {
+    display: grid;
+    align-content: center;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    color: var(--bs-info);
+    font-size: 34px;
+    box-shadow: inset 2px 2px 8px rgba(55, 94, 148, .3), inset -3px -2px 5px rgba(255, 255, 255, 0.8);
+}
+*/
