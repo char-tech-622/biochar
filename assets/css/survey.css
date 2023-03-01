@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:light');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+/* * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+} */
+
+/* body {
+  /*color: white;*/
+  /* background-image: url("https://gardenculturemagazine.com/wp-content/uploads/2019/03/biochar2.jpg")
+} */
+
+ #title {
+  margin: 25px 0 0 0;
+  padding-top: 5px;
+}
+
+#title+p {
+  margin: 0;
+  padding: 5px 0 10px 0;
+}
+
+h1,
+p {
+  font-family: 'Work Sans', 'sans-serif';
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 100, 0);
+}
+
+form {
+  margin: 25px auto;
+  max-width: 500px;
+  
+  box-shadow: 0 0 2px 0 inset;
+  border: none;
+} 
+/* 
+fieldset {
+  padding: 15px;
+  border: none;
+}
+
+#number {
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea,
+selet {
+  margin-bottom: 30px;
+} */ 
+
+ textarea,
+input:not([type=checkbox]):not([type=radio]),
+select {
+  border: none;
+  font-size: 16px !important;
+  outline: none;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06) inset;
+  background-color: #444;
+}
+
+button {
+  padding: 15px;
+  color: #FFF;
+  background-color: darkgreen;
+  font-size: 23px;
+  text-align: center;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid darkgreen;
+  border-width: 1px 1px 3px;
+  margin-bottom: 10px;
+} 
+ 
+button:hover {
+  cursor: pointer;
+  background-color: #448344;
+  border-color: #448344;
+} 
+
+ .wrapper {
+  display: block;
+} 
+ 
+input[type=checkbox],
+input[type=radio] {
+  margin: 3px;
+} 
+label:last-of-type,
+label:nth-last-of-type(2) {
+  margin-top: 30px; 
+}
