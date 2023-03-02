@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Char-Tech. Save the Planet. &#127757;</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/css/survey.css">
+
+</head>
+
+<header>
+  <h1 id="title">Biochar Customer Satisfaction Survey</h1>
+  <p id="description">Help us improve our product and services!</p>
+</header>
+<form id="survey-form" method="GET">
+  <fieldset>
+    <label for="name" id="name-label">*Name</label>
+    <input type="text" name="name" id="name" placeholder="Please enter your name" required autofocus>
+    <label for="email" id="email-label">*Email</label>
+    <input type="email" name="email" id="email" placeholder="your@email.com" required>
+
+    <label for="career">On a scale of 1-8 how much knowledge did you have on biochar before using our product?</label>
+    <span class="wrapper"><input type="radio" name="career" value="front-end">1</span>
+    <span class="wrapper"><input type="radio" name="career" value="back-end">2</span>
+    <span class="wrapper"><input type="radio" name="career" value="full-stack">3</span>
+    <span class="wrapper"><input type="radio" name="career" value="other">4</span>
+    <span class="wrapper"><input type="radio" name="career" value="front-end">5</span>
+    <span class="wrapper"><input type="radio" name="career" value="back-end">6</span>
+    <span class="wrapper"><input type="radio" name="career" value="full-stack">7</span>
+    <span class="wrapper"><input type="radio" name="career" value="other">8</span>
+
+    <label for="experience">How was your experience with using biochar?</label>
+    <textarea rows="4" cols="50"></textarea>
+
+
+    <label for="availability">Have your crop yields increased with the use of our product?</label>
+    <div id="avaiability">
+      <span class="wrapper"><input type="checkbox" name="availability" id="morning" value="morning">Yes</span>
+      <span class="wrapper"><input type="checkbox" name="availability" id="noon" value="noon">No</span>
+    </div>
+
+    <label for="availability">Would you recommend biochar to others?</label>
+    <div id="avaiability">
+      <span class="wrapper"><input type="checkbox" name="availability" id="morning" value="morning">Yes</span>
+      <span class="wrapper"><input type="checkbox" name="availability" id="noon" value="noon">No</span>
+    </div>
+
+    <label for="reccomend">Would you recommend any of our services to others?</label>
+    <div id="reccomend">
+      <span class="wrapper"><input type="checkbox" name="reccomend" id="yes" value="morning">Yes</span>
+      <span class="wrapper"><input type="checkbox" name="reccomend" id="no" value="noon">No</span>
+    </div>
+
+    <label for="comments">Please share any other comments or feedback with us below:</label>
+    <textarea rows="4" cols="50"></textarea>
+
+    <button id="submit" type="submit">Submit</button>
+  </fieldset>
+</form>
